@@ -42,10 +42,23 @@ A feature-rich number guessing game built with Python and Tkinter, offering mult
 
 1. Clone or download this repository
 2. Ensure you have Python 3.x installed
-3. Run the game:
+3. Run the installation script to check requirements:
+   ```bash
+   python script.py
+   ```
+4. Run the game:
    ```bash
    python Final_fixed_game.py
    ```
+
+### Installation Script
+
+The `script.py` does the following:
+- Checks if Python 3.x is installed
+- Verifies that Tkinter is available
+- Confirms all required modules are present
+- Creates necessary directories (data/ and avatars/)
+- Provides OS-specific instructions if anything is missing
 
 ## How to Play
 
